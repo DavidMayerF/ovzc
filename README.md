@@ -1,37 +1,36 @@
-# Ojai Valley Zen Center Website Project
+# Ojai Valley Zen Center Website
 
-This repository contains the source materials for the Ojai Valley Zen Center website.
+This repository contains the source files for the Ojai Valley Zen Center website.
 
-The purpose is to keep the website simple, portable, and recoverable. Google Sites may be used to publish the site, but the canonical text lives here.
+The site is intentionally simple:
+
+- one page
+- no navigation menu
+- no clutter
+- readable in one sitting
+- schedule on the left
+- text sections continuing down the right
+- warm ochre tones with high-contrast readable text
 
 ## Main files
 
-- `source/website_content.md` — canonical website text.
-- `site/index.html` — standalone HTML version of the website.
-- `site/assets/OjaiBlossom.png` — primary blossom image.
-- `site/assets/Calligraphy.png` — optional calligraphy image.
-- `docs/OVZC_Website_Content.docx` — editable Word version of the website text.
-- `docs/OVZC_Website_Master_Guide.docx` — website guide and maintenance notes.
-- `archive/Ojai_Zen_Center_Wayback_2025.html` — archived original page saved from the Wayback Machine.
+- `source/website_content.md` — canonical website text
+- `site/index.html` — current static website
+- `site/assets/OjaiBlossom.png` — main image
+- `site/assets/Calligraphy.png` — optional image
+- `docs/OVZC_Website_Content.docx` — Word copy of the website text
+- `docs/OVZC_Website_Master_Guide.docx` — project guide
+- `archive/Ojai_Zen_Center_Wayback_2025.html` — recovered archived page
 
-## Design principles
+## Local preview
 
-- One continuous page.
-- No navigation menu.
-- Readable in one sitting.
-- Quiet, uncluttered design with generous white space.
-- Timeless rather than trendy.
-- The practice is the focus.
-- Only essential information.
+Open this file in a browser:
 
-## Updating the website
+```text
+site/index.html
+```
 
-Most changes should be made first in `source/website_content.md`, then copied into Google Sites or used to regenerate the HTML version.
+## Publishing
 
-The sections most likely to change are:
+The site can be published with GitHub Pages from the `site/` folder, or copied into another static web host.
 
-- Schedule
-- Special events and retreats
-- Contact details
-
-Everything else should remain stable unless the center's needs change.
